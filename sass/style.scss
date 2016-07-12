@@ -181,8 +181,8 @@ img{ max-width:100%;height:auto;vertical-align:middle; }
 .container { 
 	*zoom:1;
 	max-width:1280px;
-	padding-left:20px;
-	padding-right:20px;
+	padding-left:10px;
+	padding-right:10px;
 	margin-left:auto;
 	margin-right:auto;
 	-webkit-background-origin:content;
@@ -551,9 +551,11 @@ footer {
 	.about-section { float:none;text-align:center;display:block;width:85%;margin:0 auto; }
 }
 
-#about-me.about-long { 
+#about-me.about-long, #single-project { 
 	padding-top:85px;
 }
+
+/*Single Projects*/
 
 /*Contact*/
 #contact-me { 
@@ -598,7 +600,7 @@ body.fourohfour:before{content:"";display:block;position:fixed;top:0;right:0;bot
 .no-touch .navigation .navigation-link:hover, .navigation-link.selected { }
 }
 
-@media screen and (max-width: 1290px) { #header .container, footer .container { padding: 0 40px; } }
+@media screen and (max-width: 1330px) { #header .container, footer .container { padding: 0 40px; } }
 
 @media screen and (max-width: 768px) {
 .desktop-img,
